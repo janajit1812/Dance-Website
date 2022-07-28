@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+h1{
+    /* background-color: aqua; */
+    text-align: center;
+    margin: 12px 0px;
+}
+.container{
+    min-height: 75vh;
+    margin: 43px 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.container h1{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 34px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid #da8282;
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    background-color: #d85858;
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 26px;
+    outline: none;
+}
